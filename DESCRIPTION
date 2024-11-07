@@ -9,9 +9,11 @@ Depends: R (>= 3.5)
 Imports:
     readr,
     readxl,
-    tools
+    tools,
+    testthat
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Config/testthat/edition: 3
