@@ -18,11 +18,11 @@ The function automatically detects the file type based on the file extension.
 }
 \examples{
 # Load a CSV file
-df <- load_file_to_df("data/sample.csv")
+df <- load_file_to_df("Desktop/ubc/stat 545/data/sample.csv")
 
 # Load an Excel file
-df <- load_file_to_df("data/sample.xlsx")
+df <- load_file_to_df("Desktop/ubc/stat 545/data/sample.xlsx")
 
 # Load a TXT file
-df <- load_file_to_df("data/sample.txt")
+df <- load_file_to_df("Desktop/ubc/stat 545/data/sample.txt")
 }
