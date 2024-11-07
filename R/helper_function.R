@@ -15,7 +15,6 @@
 #' # Load a TXT file
 #' df <- load_file_to_df("~/Desktop/ubc/stat 545/data/sample.txt")
 #' @export
-
 load_file_to_df <- function(file_path) {
 
   # Check that the file exists
