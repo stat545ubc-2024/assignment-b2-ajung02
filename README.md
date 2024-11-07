@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-**assignment2b** is an R package which contains the function
+**assignmentb2** is an R package which contains the function
 **load_file_to_df**. This function is designed to help you load CSV,
 Excel, and TXT files into data frames, automatically detecting the file
 type based on the file extension.
