@@ -7,13 +7,13 @@
 #' @return A data frame containing the contents of the file.
 #' @examples
 #' # Load a CSV file
-#' df <- load_file_to_df("Desktop/ubc/stat 545/data/sample.csv")
+#' df <- load_file_to_df("/Desktop/ubc/stat 545/data/sample.csv")
 #'
 #' # Load an Excel file
-#' df <- load_file_to_df("Desktop/ubc/stat 545/data/sample.xlsx")
+#' df <- load_file_to_df("/Desktop/ubc/stat 545/data/sample.xlsx")
 #'
 #' # Load a TXT file
-#' df <- load_file_to_df("Desktop/ubc/stat 545/data/sample.txt")
+#' df <- load_file_to_df("/Desktop/ubc/stat 545/data/sample.txt")
 #' @export
 
 load_file_to_df <- function(file_path) {
