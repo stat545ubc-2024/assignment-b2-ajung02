@@ -1,13 +1,16 @@
-Package: load_file_to_df
+Package: assignmentb2
+Type: Package
 Title: A Package to Load Various File Types into Data Frames
 Version: 0.1.0
-Authors: Allison Jung <ajung02@student.ubc.ca>
-Description: This package provides a function to load CSV, Excel, and TXT files into R data frames. It automatically detects the file type based on the extension.
+Author: Allison Jung <ajung02@student.ubc.ca>
+Maintainer: Allison Jung <ajung02@student.ubc.ca>
+Description: This package provides a function to load CSV, Excel, and TXT files into data frames. It automatically detects the file type based on the file extension.
+Depends: R (>= 3.5)
 Imports:
     readr,
     readxl,
     tools
 License: MIT + file LICENSE
 Encoding: UTF-8
+LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
