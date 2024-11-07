@@ -55,8 +55,7 @@ df_txt <- load_file_to_df("~/Desktop/ubc/stat 545/data/sample.txt")
 #> ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+## What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
 
 ``` r
 summary(cars)
