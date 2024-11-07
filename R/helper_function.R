@@ -7,13 +7,13 @@
 #' @return A data frame containing the contents of the file.
 #' @examples
 #' # Load a CSV file
-#' df <- load_file_to_df("data/sample.csv")
+#' df <- load_file_to_df("~/Desktop/ubc/stat 545/data/sample.csv")
 #'
 #' # Load an Excel file
-#' df <- load_file_to_df("data/sample.xlsx")
+#' df <- load_file_to_df("~/Desktop/ubc/stat 545/data/sample.xlsx")
 #'
 #' # Load a TXT file
-#' df <- load_file_to_df("data/sample.txt")
+#' df <- load_file_to_df("~/Desktop/ubc/stat 545/data/sample.txt")
 #' @export
 
 load_file_to_df <- function(file_path) {
@@ -30,7 +30,7 @@ load_file_to_df <- function(file_path) {
   if (file_extension == "csv") {
     df <- readr::read_csv(file_path)
   } else if (file_extension == "txt") {
-    df <- readr::read_tsv(file_path) # Assuming tab-separated for .txt
+    df <- readr::read_tsv(file_path)
   } else if (file_extension %in% c("xlsx", "xls")) {
     df <- readxl::read_excel(file_path)
   } else {
