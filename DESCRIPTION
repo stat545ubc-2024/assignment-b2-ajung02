@@ -1,7 +1,7 @@
 Package: assignmentb2
 Type: Package
 Title: A Package to Load Various File Types into Data Frames
-Version: 0.1.0
+Version: 1.0.0
 Author: Allison Jung <ajung02@student.ubc.ca>
 Maintainer: Allison Jung <ajung02@student.ubc.ca>
 Description: This package provides a function to load CSV, Excel, and TXT files into data frames. It automatically detects the file type based on the file extension.
